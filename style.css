@@ -12,13 +12,14 @@ body {
     align-items: center;
     justify-content: center;
     font-family: "Big Shoulders Display";
+    background-color: navy;
 }
 
 .container {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
     background-color: #FFF;
 }
@@ -191,6 +192,16 @@ button:hover + .Btn1 {
     font-style: normal;
     font-weight: 400;
     line-height: 28px; 
+}
+
+.fa-brands {
+    font-size: 20px;
+    color: white;
+}
+
+.fa-brands:hover {
+    color: rgba(213, 150, 108, 1);
+    transition: 0.5s;
 }
 
 .box2 {
@@ -396,6 +407,7 @@ button:hover + .Btn1 {
     }
 
     .box2 {
+        width: 100%;
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
@@ -420,8 +432,8 @@ button:hover + .Btn1 {
     .card1 {
         width: 100%;
         display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
+        /* align-items: flex-start;
+        justify-content: flex-start; */
         flex-direction: row;
     }
 
@@ -529,15 +541,21 @@ button:hover + .Btn1 {
         order: 2;
         width: 735px;
         height: 450px;
-        padding-right: 40px;
+        margin-right: 45px;
     }
 
     .card4 {
+        width: 100%;
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
         flex-direction: row;
         padding: 40px 200px;
+    }
+
+    .card5 {
+        width: 100%;
+        
     }
 
     .img4 {
@@ -581,8 +599,9 @@ button:hover + .Btn1 {
     }
 
     .box2 {
+        width: 100%;
         display: flex;
-        align-items: flex-start;
+        align-items: center;
         justify-content: space-around;
         flex-direction: row;
         padding-top: 120px;
